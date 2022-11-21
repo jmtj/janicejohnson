@@ -1,22 +1,33 @@
 /*
 Colors used:
 #708090 Color Hex SlateGray
+#596673 Color Hex (darker)
 #4e5a65 Color Hex
 #5f6a74 Color Hex
+#c5ccd2 Color
 #56A456 Habit Builder Base (Green)
 */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
-
-
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 400; /* Sets the font weight to 400 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 400;
+  /* Sets the font weight to 400 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
   color: #040404;
 }
-h1, h2, h3, h4, h5 {
+
+h1, h2, {
   line-height: 1.4;
+}
+h3, h4, h5 {
+  line-height: 1.0;
 }
 h1 {
   font-family: 'Lato', sans-serif;
@@ -35,48 +46,69 @@ h3 {
   font-size: 1.75em;
   font-weight: 600;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 700;
 }
+
 h5 {
   font-size: 1.25em;
   font-weight: 700;
 }
 
+h6 {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: #708090;
+}
+
 a {
   color: #708090;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
-a:visited { /* visited link */
-  color: #5f6a74;
+
+a:visited {
+  /* visited link */
+  color: #7e8c9b;
 }
+
 a:hover,
 a:focus {
-  color: #707090;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  color: #596673;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
-a:active { /* selected link */
+
+a:active {
+  /* selected link */
   color: #4e5a65;
 }
 
 .button {
-  display: inline-block; /* since the <a> tag is inline by default */
+  display: inline-block;
+  /* since the <a> tag is inline by default */
   background-color: #708090;
-  color: #d8d9da; /* override the default link color */
+  color: #d8d9da;
+  /* override the default link color */
   font-weight: 400;
   text-transform: uppercase;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #a9b2bc; /* width of the border, type, color */
+  border-bottom: 2px solid #a9b2bc;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
 .button:hover,
 .button:active,
-.button:focus
- {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  color: #ffffff; /* override the default link color */
+.button:focus {
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  color: #ffffff;
+  /* override the default link color */
   text-decoration: none;
 }
 
@@ -86,12 +118,119 @@ a:active { /* selected link */
   text-transform: uppercase;
   border: 2px solid #a9b2bc;
 }
+
 .button.contact:hover {
   background-color: #708090;
   color: #ffffff;
 }
 
-
 img {
   width: 100%;
+}
+
+header {
+  background-color: #c5ccd2;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  box-shadow: 7px 7px 5px 0px rgba(112, 128, 144, 0.75);
+}
+
+/* nav styling */
+nav {
+  display: inline-block;
+  width: 100%;
+}
+nav>h6 {
+    margin: 0;
+}
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav>ul>li {
+  display: inline-block;
+}
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #708090;
+}
+nav>ul>li>a:visited {
+  color: #7e8c9b;
+}
+nav>ul>li>a:hover,
+a:focus {
+  color: #596673;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
+}
+nav>ul>li>a:active {
+  /* selected link */
+  color: #4e5a65;
+}
+.logo {
+  max-width: 250px;
+}
+
+/* FOOTER styling */
+.contactlinks h2 {
+  text-align: center;
+  /* Centers text */
+}
+.contactlinks {
+  display: inline-block;
+  width: 100%;
+}
+.contactlinks>ul {
+  list-style-type: none;
+  padding: 0;
+}
+.contactlinks>ul>li {
+  display: inline-block;
+}
+.contactlinks>ul>li>a {
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #708090;
+}
+.contactlinks>ul>li>a:visited {
+  color: #7e8c9b;
+}
+.contactlinks>ul>li>a:hover,a:focus {
+  color: #596673;
+  text-decoration: underline;
+}
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #708090;
+}
+
+#hero {
+  background-color: #c5ccd2;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1, h2 {
+  text-align: center;
+  margin: 0;
+  /* Centers text */
+}
+
+.logo {
+  max-width: 250px;
 }
