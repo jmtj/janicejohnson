@@ -141,6 +141,10 @@ a:active {
   width: 100%;
 }
 
+.img-size-15 {
+  width: 15%;
+} 
+
 .img-size-25 {
   width: 25%;
 } 
@@ -148,18 +152,12 @@ a:active {
 
 header {
   background-color: #c5ccd2;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   position: relative;
   box-shadow: 7px 7px 5px 0px rgba(112, 128, 144, 0.75);
 }
 
 /* nav styling */
-nav {
-  display: inline-block;
-  width: 100%;
-
-}
 
 nav>h6 {
   margin: 0;
@@ -168,10 +166,7 @@ nav>h6 {
 nav>ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav>ul>li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -195,6 +190,36 @@ a:focus {
 nav>ul>li>a:active {
   /* selected link */
   color: #4e5a65;
+}
+
+/* hide nav items */
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 30px;
+  padding-right: 0;
+}
+
+
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  text-align: right;
+  border-top: 1px solid rgba(89,102,115,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 .logo {
@@ -267,8 +292,13 @@ nav>ul>li>a:active {
   /* Centers text */
 }
 
+.multiple-pics {
+  display:inline-block;
+  width: 100%;
+}
+
 .logo {
-  max-width: 100px;
+  max-width: 75px;
 }
 
 
@@ -284,8 +314,16 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
+  nav>ul>li {
+    display: inline-block;
+  }
+
   #hero {
     padding: 20px 0px;
+  }
+
+  .logo {
+    max-width: 100px;
   }
 
   nav {
@@ -293,6 +331,16 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
+  nav > ul {
+    margin: 1em 0;
+  }
+/* display nav links and hide menu bar */
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
 
   .col-md-6 {
     width: 50%;

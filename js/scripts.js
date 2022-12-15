@@ -1,2 +1,9 @@
-// code for exercise 2.1 INtro to JaveScpript
-console.log("This portfolio site belongs to Janice T Johnson")
+//menu bar code
+function menuToggle() {
+    var x = document.getElementById('myNavtoggle');
+    if (x.className === 'navtoggle') {
+      x.className += ' responsive';
+    } else {
+      x.className = 'navtoggle';
+    }
+  }

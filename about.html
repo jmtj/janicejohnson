@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>About Janice T Johnson</title>
+  <script src="https://kit.fontawesome.com/f9c96e7500.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <!-- fonts -->
@@ -18,14 +19,17 @@
   <!-- Header Section -->
   <header>
     <div class="container">
-      <a href="index.html"><img class="logo" class="logo" src="img/JTJ-Logo.svg" alt="Janice T Johnson"></a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img class="logo" class="logo" src="img/JTJ-Logo.svg" alt="Janice T Johnson"></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -151,6 +155,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </body>
 
