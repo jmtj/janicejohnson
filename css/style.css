@@ -49,13 +49,33 @@ h3 {
   font-weight: 600;
 }
 
+#project-HB h3 {
+  background-color: #dbdfe5;
+  padding:  8px 0 8px 8px;
+  color:#20452d; 
+}
+
 h4 {
   font-size: 1.35em;
   font-weight: 700;
 }
 
+#project-HB h4 {
+  color:#56A456;
+}
+
+#project-MW h3 {
+  background-color: #C0CCDA;
+  padding: 8px 0 8px 8px;
+  color:#8190A5;
+}
+
+#project-MW h4 {
+  font-size: 1.15em;
+}
+
 h5 {
-  font-size: 1.25em;
+  font-size: 1.15em;
   font-weight: 700;
 }
 
@@ -89,7 +109,7 @@ a:active {
   color: #4e5a65;
 }
 
-.button {
+.probutton {
   display: inline-block;
   /* since the <a> tag is inline by default */
   background-color: #708090;
@@ -105,9 +125,9 @@ a:active {
   transition-property: opacity;
 }
 
-.button:hover,
-.button:active,
-.button:focus {
+.probutton:hover,
+.probutton:active,
+.probutton:focus {
   opacity: 0.8;
   /* Reduces the opacity of the button to 80% */
   color: #ffffff;
@@ -115,30 +135,31 @@ a:active {
   text-decoration: none;
 }
 
-.button:visited {
+.probutton:visited {
   background-color: #9aa6b1;
   color: #2c3339;
   /* override the default link color */
   text-decoration: none;
 }
-.button:hover {
+.probutton:hover {
   opacity: 0.8;
 }
 
-.button.contact {
+.probutton.contact {
   background-color: transparent;
   color: #708090;
   text-transform: uppercase;
   border: 2px solid #a9b2bc;
 }
 
-.button.contact:hover {
+.probutton.contact:hover {
   background-color: #708090;
   color: #ffffff;
 }
 
-  img {
-  width: 100%;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .img-size-15 {
@@ -153,8 +174,26 @@ a:active {
 header {
   background-color: #c5ccd2;
   padding: 10px 0 4px;
-  position: relative;
+  position: fixed;
+  width: 100%;
   box-shadow: 7px 7px 5px 0px rgba(112, 128, 144, 0.75);
+}
+
+#hero {
+  background-color: #c5ccd2;
+  padding: 10px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1, h2 {
+  text-align: center;
+  margin: 0;
+  /* Centers text */
+}
+
+main {
+  padding-top: 50px;
 }
 
 /* nav styling */
@@ -222,8 +261,92 @@ nav>ul>li>a:active {
   padding: 0 0 10px;
 }
 
+
 .logo {
   max-width: 250px;
+}
+
+/* Design Slide Show */
+* {box-sizing:border-box}
+
+#designdocs img {
+  border: 2px solid #A2CFA2;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #56A456;
+  font-size: 12px;
+  padding: 8px 12px;
+  font-weight: bold;
+  text-align: center;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #D5E9D5;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #20452d;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 
@@ -279,23 +402,23 @@ nav>ul>li>a:active {
   border-bottom: 1px solid #708090;
 }
 
-#hero {
-  background-color: #c5ccd2;
-  padding: 15px 0;
-  display: inline-block;
-  width: 100%;
-}
 
-#hero h1, h2 {
-  text-align: center;
-  margin: 0;
-  /* Centers text */
-}
 
-.multiple-pics {
-  display:inline-block;
-  width: 100%;
-}
+
+
+ 
+#affinity-map .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .logo {
   max-width: 75px;
@@ -313,7 +436,9 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
-
+  main {
+    padding-top: 90px;
+  }
   nav>ul>li {
     display: inline-block;
   }
@@ -323,6 +448,7 @@ Medium devices (640px and larger)
   }
 
   .logo {
+    padding: 10px 0 0 0;
     max-width: 100px;
   }
 
@@ -364,13 +490,8 @@ Medium devices (640px and larger)
   #about-page h6 {
     margin-bottom: 0;
  }
-  .img-size-50 {
-    width: 50%;
-  } 
-  .img-size-75 {
-    width: 75%;
-  } 
-}
+ 
+
 
 /* ==============================
 Large devices (1024px or larger)
@@ -383,7 +504,7 @@ Large devices (1024px or larger)
     text-align: right;
   }
   .container {
-    max-width: 1200px;
+    max-width: 1050px;
     margin-left: auto;
     margin-right: auto;
   }
