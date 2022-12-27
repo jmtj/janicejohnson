@@ -4,7 +4,9 @@ Colors used:
 #596673 Color Hex (darker)
 #4e5a65 Color Hex
 #5f6a74 Color Hex
-#c5ccd2 Color
+#c5ccd2 Color - headers background
+#7e8c9b Color - header text
+#4B7C5C Color - header text HB
 #56A456 Habit Builder Base (Green)
 */
 * {
@@ -50,9 +52,15 @@ h3 {
 }
 
 #project-HB h3 {
-  background-color: #dbdfe5;
+  background-color: #f0f0f0;
   padding:  8px 0 8px 8px;
-  color:#20452d; 
+  color:#387038; 
+}
+
+#project-MW h3 {
+  background-color: #f0f0f0;
+  padding:  8px 0 8px 8px;
+  color:#387038; 
 }
 
 h4 {
@@ -61,13 +69,7 @@ h4 {
 }
 
 #project-HB h4 {
-  color:#56A456;
-}
-
-#project-MW h3 {
-  background-color: #C0CCDA;
-  padding: 8px 0 8px 8px;
-  color:#8190A5;
+  color:#387038;
 }
 
 #project-MW h4 {
@@ -184,6 +186,10 @@ header {
   padding: 10px 0;
   display: inline-block;
   width: 100%;
+}
+
+.img-size-60 { 
+  display: inline-block;
 }
 
 #hero h1, h2 {
@@ -468,6 +474,9 @@ Medium devices (640px and larger)
   display: none;
 }
 
+.img-size-60 { 
+  display: inline-block;
+}
   .col-md-6 {
     width: 50%;
   }
