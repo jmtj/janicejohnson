@@ -16,6 +16,8 @@
 </head>
 
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
   <!-- Header Section -->
   <header>
     <div class="container">
@@ -42,6 +44,7 @@
       </div>
     </div>
     <div id="project-MW">
+
       <div class="container"><!--Introduction START -->
         <div class="row">
           <div>
@@ -50,15 +53,29 @@
               <img src="img/mywords/MW-About-MyWordsx800.png" alt="My Words">
             </picture>
           </div>
-          <div>
-            <p>My Words was designed to:</p>
-            <ul>
-              <li>help young adults learn new terminology</li>
-              <li>enable them to enter their own terms to learn and group them by subjects of their choosing</li>
-              <li>give a variety of methods to practice to help keep them engaged</li>
-              <li>make learrning easy and accessible users are encouraged by the app to learn their terms</li>
-            </ul>
-            <p>I was the only UX Designer for this project that was completed as part of Career Foundry UX Design certification requirement.</p>
+        </div>
+      </div>
+
+      <div id="blockid">
+        <div class="container"><!--Introduction START -->
+          <div class="row">
+            <div>
+              <h2>
+                Project Objective
+              </h2>
+            </div>
+            <div>
+              <p>My Words was designed to:</p>
+              <ul>
+                <li>help young adults learn new terminology</li>
+                <li>enable them to enter their own terms to learn and group them by subjects of their choosing</li>
+                <li>give a variety of methods to practice to help keep them engaged</li>
+                <li>make learrning easy and accessible users are encouraged by the app to learn their terms</li>
+              </ul>
+              <div class="sidenote">
+                <p>I was the only UX Designer for this project that was completed as part of Career Foundry UX Design certification requirement.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div><!--Introduction END-->
@@ -66,9 +83,9 @@
       <div class="container"><!-- Competitive Analysis START -->
         <div class="row">
           <div>
-            <h3>
+            <h2>
               Competitive Analysis
-            </h3>
+            </h2>
           </div>
           <div>
             <p>For this analysis I focused on ease of use and scope of capabilities. They all met the general criteria of creating flashcards to learn terminology. They all had the ability to create custom terms and answers. They each had some extras
@@ -104,9 +121,9 @@
       <div class="container"><!-- User Research START -->
         <div class="row">
           <div>
-            <h3>
+            <h2>
               User Interviews
-            </h3>
+            </h2>
           </div>
           <div>
             <h4>
@@ -127,20 +144,22 @@
           </div>
           <div>
             <h5>
-              Findings
+              Interview Findings
             </h5>
           </div>
           <div>
             <ul>
-              <li>All interviewees felt repetition and application to real life was important for learning and retention. If they do not apply what they learn, they will forget in a matter of weeks or months.</li>
-              <li>Competition motivates some people but not everyone – it can turn some people off or add pressure they do not want.</li>
-              <li>Reminder notifications are valuable to keep the learner engaged but should have the ability to set to learner’s preferences.</li>
-              <li>Variety is the spice to learning. All interviewees felt more engaged with terms and information when they had a variety of ways to interact with the information.</li>
-              <li>The interviewees feel more engaged with the learnings when supporting information is provided – what is the backstory of why things are – rather than a list of facts or terms.</li>
-              <li>Most expressed that the experience needs to be pleasing. They referenced good visuals, organization, navigation and variety as part of a good experience. If the app does not provide these, they won’t use it. “There are too
-                manyoptions
-                out there if this does not work, I am moving on – time is too precious – you will gravitate to what is easier and pleasing.” ~Mari</li>
-              <li>Imposture syndrome is common, and people want ways to expand their knowledge in their fields to be productive and valuable.</li>
+              <li>All interviewees felt <span style="font-weight:bold;color:#365742;">repetition and application to real life</span> was important for learning and retention. If they do not apply what they learn, they will forget in a matter of weeks
+                or months.</li>
+              <li><span style="font-weight:bold;color:#365742;">Competition motivates some people but not everyone</span> - it can turn some people off or add pressure they do not want.</li>
+              <li><span style="font-weight:bold;color:#365742;">Reminder notifications are valuable</span> to keep the learner engaged but should have the ability to <span style="font-weight:bold;color:#365742;">set to learner's preferences</span>.
+              </li>
+              <li>Variety is the spice to learning. All interviewees felt more engaged with terms and information when they had a <span style="font-weight:bold;color:#365742;">variety of ways to interact with the information</span>.</li>
+              <li>The interviewees feel more engaged with the learnings when <span style="font-weight:bold;color:#365742;">supporting information is provided</span> - what is the backstory of why things are - rather than a list of facts or terms.
+              </li>
+              <li>Most expressed that the experience needs to be pleasing. They referenced <span style="font-weight:bold;color:#365742;">good visuals, organization, navigation and variety as part of a good experience</span>. If the app does not
+                provide these, they won't use it. "There are too many options out there if this does not work, I am moving on - time is too precious - you will gravitate to what is easier and pleasing.” ~Mari</li>
+              <li>Imposture syndrome is common, and <span style="font-weight:bold;color:#365742;">people want ways to expand their knowledge in their fields to be productive and valuable</span>.</li>
             </ul>
           </div>
         </div>
@@ -149,14 +168,14 @@
       <div class="container"><!-- Defining the User START -->
         <div class="row">
           <div>
-            <h3>
+            <h2>
               Defining the User
-            </h3>
+            </h2>
           </div>
           <div>
-            <h4>
+            <h3>
               User Persona - Megan
-            </h4>
+            </h3>
           </div>
           <div>
             <p>User Persona was developed based on findings from the User Interviews</p>
@@ -168,23 +187,32 @@
             </picture>
           </div>
           <div>
-            <picture>
-              <source srcset="img/mywords/MW-ObjectiveFromResearchx500.jpg" media=" (max-width:700px)">
-              <img src="img/mywords/MW-ObjectiveFromResearchx800.jpg" alt="Design Objectives">
-            </picture>
+            <h3>
+              Design objectives based on persona:
+            </h3>
           </div>
+          <dv>
+            <ul>
+              <li>ability to learn in pockets of time</li>
+              <li>quick sessions that she can control</li>
+              <li>fun and easy</li>
+              <li>variety of learning formats</li>
+              <li>customizable reminders to keep learning</li>
+            </ul>
+          </dv>
+
         </div>
       </div><!-- Defining the User  END -->
 
       <div class="container"><!-- The Initial Design START -->
         <div class="row">
           <div>
-            <h3>
+            <h2>
               The Initial Design
-            </h3>
+            </h2>
           </div>
           <div>
-            <p>Initial Abilities for Prototype</p>
+            <h4>Initial Abilities for Prototype</h4>
             <ul>
               <li>Create an account</li>
               <li>Create a deck for terms</li>
@@ -210,27 +238,30 @@
       <div class="container"><!-- Usability Testing START -->
         <div class="row">
           <div>
-            <h3>
+            <h2>
               Testing
-            </h3>
+            </h2>
           </div>
           <div>
-            <picture>
-              <source srcset="img/mywords/MW-DesignProcess-1x500.png" media=" (max-width:700px)">
-              <img src="img/mywords/MW-DesignProcess-1x800.png" alt="Testing Process">
-            </picture>
+            <p>With feedback from my testing participants:
+            <ul>
+              <li>I created a cleaner create account screen</li>
+              <li>I added clarification to some of the directions</li>
+              <li>I added functionality to the practice sessions</li>
+            </ul>
           </div>
+
           <div>
             <picture>
               <source srcset="img/mywords/MW-DesignProcess-3-UT1x500.png" media=" (max-width:700px)">
               <img src="img/mywords/MW-DesignProcess-3-UT1x800.png" alt="Testing Results">
-            </picture>
+            </picture><br>
           </div>
           <div>
             <picture>
               <source srcset="img/mywords/MW-DesignProcess-2-UT2x500.png" media=" (max-width:700px)">
               <img src="img/mywords/MW-DesignProcess-2-UT2x800.png" alt="Testing Results">
-            </picture>
+            </picture><br>
           </div>
           <div>
             <picture>
@@ -241,29 +272,25 @@
         </div>
       </div><!-- Usability Testing   END -->
 
-
-      <div class="container"><!-- Up Next START -->
-        <div class="row">
-          <div>
-            <h3>
-              Up Next
-            </h3>
-          </div>
-          <div>
-            <ul>
-              <li>digital version of prototype</li>
-              <li>usability testing of updates</li>
-              <li>more revisions</li>
-              <li>additional features based on insights and feedback</li>
+      <div id="blockid">
+        <div class="container"><!-- Up Next START -->
+          <div class="row">
+            <div>
+              <h2>
+                Up Next
+              </h2>
+            </div>
+            <div>
+              <h4>Additional features based on participants insights and feedback</h4>
               <ul>
                 <li>scheduling reminders</li>
-                <li>scoring process for how users are doing</li>
+                <li>scoring process for how users are progressing</li>
                 <li>additional access to create cards and practice cards</li>
               </ul>
-            </ul>
+            </div>
           </div>
-        </div>
-      </div><!-- Up Next   END -->
+        </div><!-- Up Next   END -->
+      </div>
     </div><!--work ID END -->
   </main>
 
@@ -282,7 +309,7 @@
           <!-- email -->
           <li>|</li>
           <li>
-            <a href="mailto:name@emailaddress.com" target="_blank">Email me</a>
+            <a href="mailto:jmtj.johnson@gmail.com" target="_blank">Email me</a>
           </li>
           <!-- Linedin -->
           <li>|</li>
@@ -293,6 +320,7 @@
       </div>
       <div>
         <p>Copyright Janice T Johnson 2022</p>
+        <br>
       </div>
     </div>
   </footer>
