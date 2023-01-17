@@ -40,14 +40,14 @@ header {
   width: 100%;
 }
 
-#blockid {
+.blockid {
   background-color: #eaeaea;
   padding: 10px 0;
   display: inline-block;
   width: 100%;
 }
 
-h1, h2, {
+h1, h2 {
 line-height: 1.4;
 }
 
@@ -70,7 +70,7 @@ h2 {
   color: #20452d;
 }
 
-#blockid h2 {
+.blockid h2 {
   line-height: 1.0;
   font-size: 2.0em;
 }
@@ -85,7 +85,7 @@ h2 {
   /* Centers text */
 }
 
-#project-HB h2 {
+.project-HB h2 {
   padding: 0px 0 2px 4px;
   color: #20452D;
   font-size: 2.5em;
@@ -99,7 +99,7 @@ h3 {
   color: #365742;
 }
 
-#project-HB h3 {
+.project-HB h3 {
   background-color: #20452D;
   border: #20452d;
   border: 1px solid #20452d;
@@ -117,7 +117,7 @@ h4 {
   font-weight: 700;
 }
 
-#project-HB h4 {
+.project-HB h4 {
   color: #387038;
 }
 
@@ -137,7 +137,7 @@ h6 {
   color: #20452D;
 }
 
-#blockid h6 {
+.blockid h6 {
   margin-bottom: 0;
 }
 
@@ -160,7 +160,7 @@ h6 {
 }
 
 .active, .collapsible:hover {
-  background-color: #708090;
+  background-color: #697887;
   color: #ffffff;
 }
 
@@ -650,4 +650,7 @@ Large devices (1024px or larger)
   /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-  @media only screen and (min-width: 1440px) {}
+  @media only screen and (min-width: 1440px) {
+
+  }
+}

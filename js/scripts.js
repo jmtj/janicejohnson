@@ -9,7 +9,7 @@ function menuToggle() {
       x.className = 'navtoggle';
     }
   }
-  
+     
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
