@@ -171,11 +171,7 @@ h6 {
   transition: max-height 0.2s ease-out;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 table {
   border-collapse: separate;
   border-spacing: 20px 10px;
@@ -404,13 +400,13 @@ nav>ul>li>a:active {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: relative;
+  display: inline-block;
   margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: inline-block;
 }
 
 /* Next & previous buttons */
@@ -426,12 +422,6 @@ nav>ul>li>a:active {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -469,6 +459,12 @@ nav>ul>li>a:active {
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
 }
 
 @keyframes fade {
