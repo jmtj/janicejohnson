@@ -48,7 +48,7 @@ header {
 }
 
 h1, h2 {
-line-height: 1.4;
+  line-height: 1.4;
 }
 
 h3, h4, h5 {
@@ -61,7 +61,6 @@ h1 {
   font-weight: 700;
   color: #20452d;
 }
-
 
 h2 {
   font-family: 'Karla', sans-serif;
@@ -172,6 +171,11 @@ h6 {
   transition: max-height 0.2s ease-out;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 table {
   border-collapse: separate;
   border-spacing: 20px 10px;
@@ -650,7 +654,5 @@ Large devices (1024px or larger)
   /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-  @media only screen and (min-width: 1440px) {
-
-  }
+  @media only screen and (min-width: 1440px) {}
 }

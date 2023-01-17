@@ -1,224 +1,168 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Habit Builder</title>
-    <script
-      src="https://kit.fontawesome.com/f9c96e7500.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Lato:wght@400;700&family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- view port page scaling-->
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Habit Builder</title>
+  <script src="https://kit.fontawesome.com/f9c96e7500.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Lato:wght@400;700&family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-  <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- view port page scaling-->
+</head>
 
-    <!-- Header Section -->
-    <header>
-      <div class="container">
-        <div class="navtoggle" id="myNavtoggle">
-          <a href="index.html"
-            ><img class="logo" src="img/JTJ-Logo.svg" alt="Janice T Johnson"
-          /></a>
-          <nav>
-            <ul>
-              <li><a href="index.html">UX Work</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li>
-                <a
-                  href="javascript:void(0);"
-                  class="icon"
-                  onclick="menuToggle()"
-                  ><i class="fas fa-bars"></i
-                ></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img class="logo" src="img/JTJ-Logo.svg" alt="Janice T Johnson"></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">UX Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </header>
-    <main>
-      <!-- Title -->
-      <div class="container project-HB">
-        <div>
-          <h1>Habit Builder</h1>
-        </div>
-        <div>
-          <p>
-            Designed for health-conscious individuals to
-            <span style="font-weight: bold; color: #20452d"> manage and improve their health and wellness habits</span>
-            and to
-            <span style="font-weight: bold; color: #20452d">create an accountability network across the different brands of tracking devices</span>
-            that their friends use.
-          </p>
-        </div>
+    </div>
+  </header>
+  <main>
+    <!-- Title -->
+    <div class="container project-HB">
+      <div>
+        <h1>Habit Builder</h1>
       </div>
-
-      <div class="project-HB">
-        <!--Deatils START-->
-        <div class="container">
-          <!--Introduction START -->
-          <div class="row">
-            <div>
-              <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-IntroImagex500.jpg"
-                  media=" (max-width:400px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-IntroImagex800.jpg"
-                  alt="Habit Builder"
-                  class="img-size-75"
-                />
-              </picture>
-            </div>
-          </div>
-        </div>
-
-        <div class="blockid">
-          <!--Project overview START -->
-          <div class="container">
-            <div class="row">
-              <div class="column col-md-6 col-lg-7">
-                <!--left column-->
-                <div>
-                  <h6>Project Objective</h6>
-                </div>
-                <p>
-                  The initial concept is based on the theory that healthy habits
-                  are one of the best ways to maintain or improve wellness
-                  behaviors but developing or keeping those habits can be
-                  challenging for people due to distractions and busy
-                  lifestyles.
-                </p>
-                <p>
-                  By providing a centralized and convenient tool that allows
-                  people to track their habits and develop a personal
-                  accountability network, their chance of improving and
-                  maintaining these healthy habits increases.
-                </p>
-              </div>
-              <div class="column col-md-6 col-lg-5">
-                <!--right column-->
-                <div>
-                  <h6>My Role</h6>
-                </div>
-                <p>
-                  I was the only UX Designer for this project that was completed
-                  as part of Career Foundry UX Design certification requirement.
-                </p>
-
-                <div>
-                  <!-- My Tools START -->
-                  <h6>My Tools:</h6>
-                  <ul>
-                    <li>Figma</li>
-                    <li>Crowd Signal</li>
-                    <li>Optimal Sort</li>
-                  </ul>
-                </div>
-                <!-- My Tools END -->
-              </div>
-            </div>
-          </div>
-        </div>
+      <div>
+        <p>
+          Designed for individuals who desire to manage their lifestyle and wellness habits and to create an accountability network with their friends.
+        </p>
       </div>
+    </div>
 
+    <div class="project-HB">
+      <!--Deatils START-->
       <div class="container">
         <!--Introduction START -->
         <div class="row">
           <div>
-            <h2>The Process</h2>
+            <picture>
+              <source srcset="img/habitbuilder/JTJ-HB-IntroImagex500.jpg" media=" (max-width:400px)">
+              <img src="img/habitbuilder/JTJ-HB-IntroImagex800.jpg" alt="Habit Builder" class="img-size-75">
+            </picture>
           </div>
-          <div>
-            <!-- My process image START -->
-            <div class="row">
-              <div id="designprocess">
-                <div class="column">
-                  <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-Process-1Discover-100.jpg"
-                      media=" (max-width:200px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-Process-1Discover-200.jpg"
-                      alt="Discover"
-                    />
-                  </picture>
-                </div>
-                <div class="column">
-                  <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-Process-2Define-100.jpg"
-                      media=" (max-width:200px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-Process-2Define-200.jpg"
-                      alt="Define"
-                    />
-                  </picture>
-                </div>
-                <div class="column">
-                  <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-Process-3Ideate-100.jpg"
-                      media=" (max-width:200px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-Process-3Ideate-200.jpg"
-                      alt="Ideate"
-                    />
-                  </picture>
-                </div>
-                <div class="column">
-                  <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-Process-4Design-100.jpg"
-                      media=" (max-width:200px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-Process-4Design-200.jpg"
-                      alt="Design"
-                    />
-                  </picture>
-                </div>
-                <div class="column">
-                  <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-Process-5Test-100.jpg"
-                      media=" (max-width:200px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-Process-5Test-200.jpg"
-                      alt="Test"
-                    />
-                  </picture>
-                </div>
-              </div>
-              <!--END designprocess-->
-            </div>
-          </div>
-          <!-- My process image END -->
         </div>
-        <!-- Overview  END-->
       </div>
 
+      <div class="blockid">
+        <!--Project overview START -->
+        <div class="container">
+          <div class="row">
+            <div class="column col-md-6 col-lg-7">
+              <!--left column-->
+              <div>
+                <h6>Project Objective</h6>
+              </div>
+              <p>
+                The initial concept is based on the theory that healthy habits
+                are one of the best ways to maintain or improve wellness
+                behaviors but developing or keeping those habits can be
+                challenging for people due to distractions and busy
+                lifestyles.
+              </p>
+              <p>
+                By providing a centralized and convenient tool that allows
+                people to track their habits and develop a personal
+                accountability network, their chance of improving and
+                maintaining these healthy habits increases.
+              </p>
+            </div>
+            <div class="column col-md-6 col-lg-5">
+              <!--right column-->
+              <div>
+                <h6>My Role</h6>
+              </div>
+              <p>
+                I was the only UX Designer for this project that was completed
+                as part of Career Foundry UX Design certification requirement.
+              </p>
+
+              <div>
+                <!-- My Tools START -->
+                <h6>My Tools:</h6>
+                <ul>
+                  <li>Figma</li>
+                  <li>Crowd Signal</li>
+                  <li>Optimal Sort</li>
+                </ul>
+              </div>
+              <!-- My Tools END -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!--Introduction START -->
+      <div class="row">
+        <div>
+          <h2>The Process</h2>
+        </div>
+        <div>
+          <!-- My process image START -->
+          <div class="row">
+            <div id="designprocess">
+              <div class="column">
+                <picture>
+                  <source srcset="img/habitbuilder/JTJ-HB-Process-1Discover-100.jpg" media=" (max-width:200px)">
+                  <img src="img/habitbuilder/JTJ-HB-Process-1Discover-200.jpg" alt="Discover">
+                </picture>
+              </div>
+              <div class="column">
+                <picture>
+                  <source srcset="img/habitbuilder/JTJ-HB-Process-2Define-100.jpg" media=" (max-width:200px)">
+                  <img src="img/habitbuilder/JTJ-HB-Process-2Define-200.jpg" alt="Define">
+                </picture>
+              </div>
+              <div class="column">
+                <picture>
+                  <source srcset="img/habitbuilder/JTJ-HB-Process-3Ideate-100.jpg" media=" (max-width:200px)">
+                  <img src="img/habitbuilder/JTJ-HB-Process-3Ideate-200.jpg" alt="Ideate">
+                </picture>
+              </div>
+              <div class="column">
+                <picture>
+                  <source srcset="img/habitbuilder/JTJ-HB-Process-4Design-100.jpg" media=" (max-width:200px)">
+                  <img src="img/habitbuilder/JTJ-HB-Process-4Design-200.jpg" alt="Design">
+                </picture>
+              </div>
+              <div class="column">
+                <picture>
+                  <source srcset="img/habitbuilder/JTJ-HB-Process-5Test-100.jpg" media=" (max-width:200px)">
+                  <img src="img/habitbuilder/JTJ-HB-Process-5Test-200.jpg" alt="Test">
+                </picture>
+              </div>
+            </div>
+            <!--END designprocess-->
+          </div>
+        </div>
+        <!-- My process image END -->
+      </div>
+      <!-- Overview  END-->
+    </div>
+
+    <div id="Discover">
       <div class="container">
         <!-- Discover SECTION START -->
         <div class="row">
@@ -240,8 +184,7 @@
           </div>
 
           <button type="button" class="collapsible">
-            Assumptions and Hypothesis</button
-          ><!-- Assumptions & Hypothesis header START-->
+            Assumptions and Hypothesis</button><!-- Assumptions & Hypothesis header START-->
           <div class="content">
             <p>
               Based on the project objective, I established assumptions that
@@ -271,9 +214,7 @@
                 </td>
                 <td>
                   Integrate the tool with
-                  <span style="font-weight: bold; color: #56a456"
-                    >multiple brands of fitness trackers</span
-                  >
+                  <span style="font-weight: bold; color: #56a456">multiple brands of fitness trackers</span>
                   so users do not have to manually enter their metrics.
                 </td>
               </tr>
@@ -284,10 +225,8 @@
                 </td>
                 <td>
                   By enabling integrations of multiple fitness trackers,
-                  <span style="font-weight: bold; color: #56a456"
-                    >users are not limited to connecting with their friends on
-                    the same fitness app</span
-                  >
+                  <span style="font-weight: bold; color: #56a456">users are not limited to connecting with their friends on
+                    the same fitness app</span>
                   to build a social support system.
                 </td>
               </tr>
@@ -299,14 +238,10 @@
                 </td>
                 <td>
                   Allow the user to
-                  <span style="font-weight: bold; color: #56a456"
-                    >customize which metrics they want to track</span
-                  >
+                  <span style="font-weight: bold; color: #56a456">customize which metrics they want to track</span>
                   and remove or hide the ones that are not important to them to
                   give them a
-                  <span style="font-weight: bold; color: #56a456"
-                    >personalized experience</span
-                  >.
+                  <span style="font-weight: bold; color: #56a456">personalized experience</span>.
                 </td>
               </tr>
               <tr>
@@ -318,10 +253,8 @@
                 </td>
                 <td>
                   Allow the user to
-                  <span style="font-weight: bold; color: #56a456"
-                    >customize their wellness goals depending on their unique
-                    needs</span
-                  >; goals might be daily meditation, daily active calorie burn,
+                  <span style="font-weight: bold; color: #56a456">customize their wellness goals depending on their unique
+                    needs</span>; goals might be daily meditation, daily active calorie burn,
                   weekly meeting with friends, or monthly date night with
                   partner.
                 </td>
@@ -330,8 +263,7 @@
           </div>
 
           <button type="button" class="collapsible">
-            Competitive Analysis - SWOT Analysis</button
-          ><!-- Competitive Analysis START-->
+            Competitive Analysis - SWOT Analysis</button><!-- Competitive Analysis START-->
           <div class="content">
             <!-- Competitive Analysis paragraph START -->
             <p>
@@ -361,64 +293,36 @@
             <div>
               <h4>Strengths - Weaknesses - Opportunities - Threats</h4>
             </div>
-            <center>
+            <div class="center">
               <div>
                 <picture>
-                  <source
-                    srcset="img/habitbuilder/JTJ-HB-CA-Metriport-Logox300.png"
-                    media=" (max-width:700px)"
-                  />
-                  <img
-                    src="img/habitbuilder/JTJ-HB-CA-Metriport-Logox500.png"
-                    alt="Metroport"
-                    class="img-size-25"
-                  />
+                  <source srcset="img/habitbuilder/JTJ-HB-CA-Metriport-Logox300.png" media=" (max-width:700px)">
+                  <img src="img/habitbuilder/JTJ-HB-CA-Metriport-Logox500.png" alt="Metroport" class="img-size-25">
                 </picture>
               </div>
               <div>
                 <picture>
-                  <source
-                    srcset="img/habitbuilder/JTJ-HB-CA-Metriport-SWOTx500.jpg"
-                    media=" (max-width:700px)"
-                  />
-                  <img
-                    src="img/habitbuilder/JTJ-HB-CA-Metriport-SWOTx650.jpg"
-                    alt="Metroport SWOT"
-                    class="img-size-75"
-                  />
+                  <source srcset="img/habitbuilder/JTJ-HB-CA-Metriport-SWOTx500.jpg" media=" (max-width:700px)">
+                  <img src="img/habitbuilder/JTJ-HB-CA-Metriport-SWOTx650.jpg" alt="Metroport SWOT" class="img-size-75">
                 </picture>
               </div>
               <!-- SWOT Analysis Metroport images  END -->
               <div>
                 <!-- SWOT Analysis HabitShare images START -->
                 <picture>
-                  <source
-                    srcset="img/habitbuilder/JTJ-HB-CA-HabitShare-Logox300.png"
-                    media=" (max-width:700px)"
-                  />
-                  <img
-                    src="img/habitbuilder/JTJ-HB-CA-HabitShare-Logox500.png"
-                    alt="HabitShare"
-                    class="img-size-25"
-                  />
+                  <source srcset="img/habitbuilder/JTJ-HB-CA-HabitShare-Logox300.png" media=" (max-width:700px)">
+                  <img src="img/habitbuilder/JTJ-HB-CA-HabitShare-Logox500.png" alt="HabitShare" class="img-size-25">
                 </picture>
               </div>
               <div>
                 <picture>
-                  <source
-                    srcset="img/habitbuilder/JTJ-HB-CA-HabitShare-SWOTx500.jpg"
-                    media=" (max-width:700px)"
-                  />
-                  <img
-                    src="img/habitbuilder/JTJ-HB-CA-HabitShare-SWOTx650.jpg"
-                    alt="HabitShare SWOT"
-                    class="img-size-75"
-                  />
+                  <source srcset="img/habitbuilder/JTJ-HB-CA-HabitShare-SWOTx500.jpg" media=" (max-width:700px)">
+                  <img src="img/habitbuilder/JTJ-HB-CA-HabitShare-SWOTx650.jpg" alt="HabitShare SWOT" class="img-size-75">
                 </picture>
               </div>
               <!-- SWOT Analysis Metroport images  END -->
-              <br /><br />
-            </center>
+              <br><br>
+            </div>
           </div>
           <!-- SWOT Analysis  END-->
 
@@ -464,8 +368,7 @@
           </div>
           <!-- Risk/Opportunity  END-->
 
-          <button type="button" class="collapsible">User Survey</button
-          ><!-- User Survey START-->
+          <button type="button" class="collapsible">User Survey</button><!-- User Survey START-->
           <div class="content">
             <div>
               <h5>User Survey Goals:</h5>
@@ -516,21 +419,14 @@
             <div>
               <!-- what they are looking for image START -->
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-Survey-WhatTheyWantx500.jpg"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-Survey-WhatTheyWantx800.jpg"
-                  alt="What they are looking for"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-Survey-WhatTheyWantx500.jpg" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-Survey-WhatTheyWantx800.jpg" alt="What they are looking for">
               </picture>
             </div>
             <!-- what they are looking for image  END -->
           </div>
 
-          <button type="button" class="collapsible">User Interviews</button
-          ><!-- User Interviews START-->
+          <button type="button" class="collapsible">User Interviews</button><!-- User Interviews START-->
           <div class="content">
             <div>
               <p>
@@ -567,38 +463,20 @@
               <div id="affinity-map">
                 <div class="column">
                   <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-UR-Affinity-1x200.png"
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-UR-Affinity-1x400.png"
-                      alt="Affinity 1"
-                    />
+                    <source srcset="img/habitbuilder/JTJ-HB-UR-Affinity-1x200.png" media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-UR-Affinity-1x400.png" alt="Affinity 1">
                   </picture>
                 </div>
                 <div class="column">
                   <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-UR-Affinity-2x200.png"
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-UR-Affinity-2x400.png"
-                      alt="Affinity 2"
-                    />
+                    <source srcset="img/habitbuilder/JTJ-HB-UR-Affinity-2x200.png" media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-UR-Affinity-2x400.png" alt="Affinity 2">
                   </picture>
                 </div>
                 <div class="column">
                   <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-UR-Affinity-3x200.png"
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-UR-Affinity-3x400.png"
-                      alt="Affinity 3"
-                    />
+                    <source srcset="img/habitbuilder/JTJ-HB-UR-Affinity-3x200.png" media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-UR-Affinity-3x400.png" alt="Affinity 3">
                   </picture>
                 </div>
               </div>
@@ -607,47 +485,33 @@
           </div>
 
           <button type="button" class="collapsible">
-            User Research Insights</button
-          ><!-- User Research Insights-->
+            User Research Insights</button><!-- User Research Insights-->
           <div class="content">
             <div>
               <ul>
                 <li>
                   Users are looking for ways to stay-on or get back-on track to
                   create good health and wellness behaviors
-                  <ul>
-                    <li>
-                      Tracking is especially helpful when they want to change
-                      their behaviors and create new habits
-                    </li>
-                  </ul>
+                  <br>
+                    -Tracking is especially helpful when they want to change their behaviors and create new habits
                 </li>
 
                 <li>
                   Behavior entries must be simple and easy - one click entry or
                   the ability to set a default entry or duplicate existing
                   entries
-                </li>
-                <ul>
-                  <li>
-                    Integration with wearable trackers helps keeps things simple
-                    for activity tracking
-                  </li>
-                  <li>
-                    Users don't want too much noise - if they are not into
-                    running, they will not be motivated on information on
-                    running
-                  </li>
-                </ul>
+                  <br>
+                  -Integration with wearable trackers helps keeps things simple for activity tracking
+                  <br>
+                  -Users don't want too much noise - if they are not into running, they will not be motivated on information on running </li>               
                 <li>
                   Customization is essential to fit everyone's needs and desires
+                  <br>
+                  -Type of behaviors tracked<br>
+                  -Metrics to measure behaviors<br>
+                  -Goals to success<br>
+                  -Reminders and prompts
                 </li>
-                <ul>
-                  <li>Type of behaviors tracked</li>
-                  <li>Metrics to measure behaviors</li>
-                  <li>Goals to success</li>
-                  <li>Reminders and prompts</li>
-                </ul>
                 <li>
                   Users are motivated by others' successes and behaviors, but
                   don't necessarily want to share ALL their details, therefore
@@ -671,8 +535,11 @@
         </div>
         <!-- Row  END-->
       </div>
-      <!--Discover SECTION END-->
+    </div>
 
+    <!--Discover SECTION END-->
+
+    <div id="Define">
       <div class="container">
         <!-- Define SECTION START -->
         <div class="row">
@@ -688,8 +555,7 @@
             </p>
           </div>
 
-          <button type="button" class="collapsible">Problem Statement</button
-          ><!-- Problem Statement START-->
+          <button type="button" class="collapsible">Problem Statement</button><!-- Problem Statement START-->
           <div class="content">
             <div>
               <p>
@@ -720,8 +586,7 @@
           <!-- Problem Statement END -->
 
           <button type="button" class="collapsible">
-            Personas and User Journeys</button
-          ><!-- Personas and User Journeys START-->
+            Personas and User Journeys</button><!-- Personas and User Journeys START-->
           <div class="content">
             <div>
               <p>
@@ -739,88 +604,54 @@
               </p>
             </div>
             <div>
-              <center>
+              <div class="center">
                 <div>
                   <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-Persona-Jackx500.jpg"
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-Persona-Jackx700.jpg"
-                      alt="Person"
-                    />
+                    <source srcset="img/habitbuilder/JTJ-HB-Persona-Jackx500.jpg" media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-Persona-Jackx700.jpg" alt="Person">
                   </picture>
                 </div>
                 <div>
                   <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-JourneyMap-Jackx500.jpg"
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-JourneyMap-Jackx700.jpg"
-                      alt="Journey Map"
-                    />
+                    <source srcset="img/habitbuilder/JTJ-HB-JourneyMap-Jackx500.jpg" media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-JourneyMap-Jackx700.jpg" alt="Journey Map">
                   </picture>
                 </div>
-                <br /><br />
+                <br><br>
                 <div>
                   <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-Persona-Kimx500.jpg"
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-Persona-Kimx700.jpg"
-                      alt="Person"
-                    />
+                    <source srcset="img/habitbuilder/JTJ-HB-Persona-Kimx500.jpg" media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-Persona-Kimx700.jpg" alt="Person">
                   </picture>
                 </div>
                 <div>
                   <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-JourneyMap-Kimx500.jpg"
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-JourneyMap-Kimx700.jpg"
-                      alt="Journey Map"
-                    />
+                    <source srcset="img/habitbuilder/JTJ-HB-JourneyMap-Kimx500.jpg" media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-JourneyMap-Kimx700.jpg" alt="Journey Map">
                   </picture>
                 </div>
-                <br /><br />
+                <br><br>
                 <div>
                   <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-Persona-Nancyx500.jpg"
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-Persona-Nancyx700.jpg"
-                      alt="Person"
-                    />
+                    <source srcset="img/habitbuilder/JTJ-HB-Persona-Nancyx500.jpg" media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-Persona-Nancyx700.jpg" alt="Person">
                   </picture>
                 </div>
                 <div>
                   <picture>
-                    <source
-                      srcset="img/habitbuilder/JTJ-HB-JourneyMap-Nancyx500.jpg"
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-JourneyMap-Nancyx700.jpg"
-                      alt="Journey Map"
-                    />
+                    <source srcset="img/habitbuilder/JTJ-HB-JourneyMap-Nancyx500.jpg" media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-JourneyMap-Nancyx700.jpg" alt="Journey Map">
                   </picture>
                 </div>
-              </center>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- DEFINE END -->
+    </div>
+    <!-- DEFINE END -->
 
+    <div id="Ideate">
       <div class="container">
         <!-- Ideate SECTION START -->
         <div class="row">
@@ -838,8 +669,7 @@
             </p>
           </div>
 
-          <button type="button" class="collapsible">User Flows</button
-          ><!-- User Flows START-->
+          <button type="button" class="collapsible">User Flows</button><!-- User Flows START-->
           <div class="content">
             <div>
               <p>
@@ -864,46 +694,27 @@
             </div>
             <div>
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-UserFlow-1x500.jpg"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-UserFlow-1x800.jpg"
-                  alt="User Flow"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-UserFlow-1x500.jpg" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-UserFlow-1x800.jpg" alt="User Flow">
               </picture>
             </div>
             <div>
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-UserFlow-2x500.jpg"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-UserFlow-2x800.jpg"
-                  alt="User Flow"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-UserFlow-2x500.jpg" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-UserFlow-2x800.jpg" alt="User Flow">
               </picture>
             </div>
             <div>
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-UserFlow-3x500.jpg"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-UserFlow-3x800.jpg"
-                  alt="User Flow"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-UserFlow-3x500.jpg" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-UserFlow-3x800.jpg" alt="User Flow">
               </picture>
             </div>
             <!-- User Flows END -->
           </div>
 
           <button type="button" class="collapsible">
-            Information Architechture</button
-          ><!-- Information Architechture START-->
+            Information Architechture</button><!-- Information Architechture START-->
           <div class="content">
             <div>
               <p>
@@ -932,14 +743,8 @@
             </div>
             <div>
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-CardSortResults-1x620.png"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-CardSortResults-1x620.png"
-                  alt="Card Sort"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-CardSortResults-1x620.png" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-CardSortResults-1x620.png" alt="Card Sort">
               </picture>
             </div>
             <div>
@@ -960,40 +765,30 @@
             </div>
             <div>
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-SiteMapProposalx500.jpg"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-SiteMapProposalx800.jpg"
-                  alt="Site Map"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-SiteMapProposalx500.jpg" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-SiteMapProposalx800.jpg" alt="Site Map">
               </picture>
             </div>
           </div>
           <!-- Information Architechture END -->
 
-          <button type="button" class="collapsible">Sketches</button
-          ><!-- Sketches START-->
+          <button type="button" class="collapsible">Sketches</button><!-- Sketches START-->
           <div class="content">
             <div>
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-Sketchesx500.png"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-Sketchesx800.png"
-                  alt="Sketches"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-Sketchesx500.png" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-Sketchesx800.png" alt="Sketches">
               </picture>
             </div>
           </div>
           <!-- Sketches END -->
         </div>
       </div>
-      <!-- IDEATE SECTION END -->
+    </div>
+    <!-- IDEATE SECTION END -->
 
+
+    <div id="Design">
       <div class="container">
         <!-- Design SECTION START -->
         <div class="row">
@@ -1010,8 +805,7 @@
             </p>
           </div>
 
-          <button type="button" class="collapsible">Wireframes</button
-          ><!-- Wireframes START-->
+          <button type="button" class="collapsible">Wireframes</button><!-- Wireframes START-->
           <div class="content">
             <div>
               <p>
@@ -1022,32 +816,19 @@
             </div>
             <div>
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-Wireframes-1x500.png"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-Wireframes-1x800.png"
-                  alt="Wireframes"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-Wireframes-1x500.png" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-Wireframes-1x800.png" alt="Wireframes">
               </picture>
             </div>
             <div>
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-Wireframes-2x500.png"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-Wireframes-2x800.png"
-                  alt="Wireframes"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-Wireframes-2x500.png" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-Wireframes-2x800.png" alt="Wireframes">
               </picture>
             </div>
           </div>
 
-          <button type="button" class="collapsible">Design Documents</button
-          ><!-- Design Documents START-->
+          <button type="button" class="collapsible">Design Documents</button><!-- Design Documents START-->
           <div class="content">
             <div>
               <p>
@@ -1064,151 +845,88 @@
               <!-- Slideshow container -->
               <div class="slideshow-container">
                 <!-- Full-width images with number and caption text -->
-                <center>
+                <div class="center">
                   <!-- Next and previous buttons -->
 
                   <div class="mySlides fade">
                     <picture>
-                      <source
-                        srcset="img/habitbuilder/JTJ-HB-1Overviewx500.jpg"
-                        media=" (max-width:700px)"
-                      />
-                      <img
-                        src="img/habitbuilder/JTJ-HB-1Overviewx800.jpg"
-                        alt="Design Documents"
-                        class="img-size-50"
-                      />
+                      <source srcset="img/habitbuilder/JTJ-HB-1Overviewx500.jpg" media=" (max-width:700px)">
+                      <img src="img/habitbuilder/JTJ-HB-1Overviewx800.jpg" alt="Design Documents" class="img-size-50">
                     </picture>
                     <div class="numbertext">1 / 9</div>
                   </div>
 
                   <div class="mySlides fade">
                     <picture>
-                      <source
-                        srcset="img/habitbuilder/JTJ-HB-2Colorx500.jpg"
-                        media=" (max-width:700px)"
-                      />
-                      <img
-                        src="img/habitbuilder/JTJ-HB-2Colorx800.jpg"
-                        alt="Design Documents"
-                        class="img-size-50"
-                      />
+                      <source srcset="img/habitbuilder/JTJ-HB-2Colorx500.jpg" media=" (max-width:700px)">
+                      <img src="img/habitbuilder/JTJ-HB-2Colorx800.jpg" alt="Design Documents" class="img-size-50">
                     </picture>
                     <div class="numbertext">2 / 9</div>
                   </div>
 
                   <div class="mySlides fade">
                     <picture>
-                      <source
-                        srcset="img/habitbuilder/JTJ-HB-3Typographyx500.jpg"
-                        media=" (max-width:700px)"
-                      />
-                      <img
-                        src="img/habitbuilder/JTJ-HB-3Typographyx800.jpg"
-                        alt="Design Documents"
-                        class="img-size-50"
-                      />
+                      <source srcset="img/habitbuilder/JTJ-HB-3Typographyx500.jpg" media=" (max-width:700px)">
+                      <img src="img/habitbuilder/JTJ-HB-3Typographyx800.jpg" alt="Design Documents" class="img-size-50">
                     </picture>
                     <div class="numbertext">3 / 9</div>
                   </div>
 
                   <div class="mySlides fade">
                     <picture>
-                      <source
-                        srcset="img/habitbuilder/JTJ-HB-4Iconographyx500.jpg"
-                        media=" (max-width:700px)"
-                      />
-                      <img
-                        src="img/habitbuilder/JTJ-HB-4Iconographyx800.jpg"
-                        alt="Design Documents"
-                        class="img-size-50"
-                      />
+                      <source srcset="img/habitbuilder/JTJ-HB-4Iconographyx500.jpg" media=" (max-width:700px)">
+                      <img src="img/habitbuilder/JTJ-HB-4Iconographyx800.jpg" alt="Design Documents" class="img-size-50">
                     </picture>
                     <div class="numbertext">4 / 9</div>
                   </div>
 
                   <div class="mySlides fade">
                     <picture>
-                      <source
-                        srcset="img/habitbuilder/JTJ-HB-5UIComponentsx500.jpg"
-                        media=" (max-width:700px)"
-                      />
-                      <img
-                        src="img/habitbuilder/JTJ-HB-5UIComponentsx800.jpg"
-                        alt="Design Documents"
-                        class="img-size-50"
-                      />
+                      <source srcset="img/habitbuilder/JTJ-HB-5UIComponentsx500.jpg" media=" (max-width:700px)">
+                      <img src="img/habitbuilder/JTJ-HB-5UIComponentsx800.jpg" alt="Design Documents" class="img-size-50">
                     </picture>
                     <div class="numbertext">5 / 9</div>
                   </div>
 
                   <div class="mySlides fade">
                     <picture>
-                      <source
-                        srcset="img/habitbuilder/JTJ-HB-6Layoutx500.jpg"
-                        media=" (max-width:700px)"
-                      />
-                      <img
-                        src="img/habitbuilder/JTJ-HB-6Layoutx800.jpg"
-                        alt="Design Documents"
-                        class="img-size-50"
-                      />
+                      <source srcset="img/habitbuilder/JTJ-HB-6Layoutx500.jpg" media=" (max-width:700px)">
+                      <img src="img/habitbuilder/JTJ-HB-6Layoutx800.jpg" alt="Design Documents" class="img-size-50">
                     </picture>
                     <div class="numbertext">6 / 9</div>
                   </div>
 
                   <div class="mySlides fade">
                     <picture>
-                      <source
-                        srcset="img/habitbuilder/JTJ-HB-7ToneVoicex500.jpg"
-                        media=" (max-width:700px)"
-                      />
-                      <img
-                        src="img/habitbuilder/JTJ-HB-7ToneVoicex800.jpg"
-                        alt="Design Documents"
-                        class="img-size-50"
-                      />
+                      <source srcset="img/habitbuilder/JTJ-HB-7ToneVoicex500.jpg" media=" (max-width:700px)">
+                      <img src="img/habitbuilder/JTJ-HB-7ToneVoicex800.jpg" alt="Design Documents" class="img-size-50">
                     </picture>
                     <div class="numbertext">7 / 9</div>
                   </div>
 
                   <div class="mySlides fade">
                     <picture>
-                      <source
-                        srcset="img/habitbuilder/JTJ-HB-8Accessibiltyx500.jpg"
-                        media=" (max-width:700px)"
-                      />
-                      <img
-                        src="img/habitbuilder/JTJ-HB-8Accessibiltyx800.jpg"
-                        alt="Design Documents"
-                        class="img-size-50"
-                      />
+                      <source srcset="img/habitbuilder/JTJ-HB-8Accessibiltyx500.jpg" media=" (max-width:700px)">
+                      <img src="img/habitbuilder/JTJ-HB-8Accessibiltyx800.jpg" alt="Design Documents" class="img-size-50">
                     </picture>
                     <div class="numbertext">8 / 9</div>
                   </div>
 
                   <div class="mySlides fade">
                     <picture>
-                      <source
-                        srcset="img/habitbuilder/JTJ-HB-9Resourcesx500.jpg"
-                        media=" (max-width:700px)"
-                      />
-                      <img
-                        src="img/habitbuilder/JTJ-HB-9Resourcesx800.jpg"
-                        alt="Design Documents"
-                        class="img-size-50"
-                      />
+                      <source srcset="img/habitbuilder/JTJ-HB-9Resourcesx500.jpg" media=" (max-width:700px)">
+                      <img src="img/habitbuilder/JTJ-HB-9Resourcesx800.jpg" alt="Design Documents" class="img-size-50">
                     </picture>
                     <div class="numbertext">9 / 9</div>
                   </div>
 
                   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                   <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </center>
+                </div>
               </div>
               <!-- The dots/circles -->
               <div style="text-align: center">
-                <center>
+                <div class="center">
                   <span class="dot" onclick="currentSlide(1)"></span>
                   <span class="dot" onclick="currentSlide(2)"></span>
                   <span class="dot" onclick="currentSlide(3)"></span>
@@ -1218,14 +936,13 @@
                   <span class="dot" onclick="currentSlide(7)"></span>
                   <span class="dot" onclick="currentSlide(8)"></span>
                   <span class="dot" onclick="currentSlide(9)"></span>
-                </center>
+                </div>
               </div>
             </div>
           </div>
 
           <button type="button" class="collapsible">
-            Guidelines and Principles</button
-          ><!-- Guidlines and Principles START-->
+            Guidelines and Principles</button><!-- Guidlines and Principles START-->
           <div class="content">
             <div>
               <p>
@@ -1253,20 +970,14 @@
                 </p>
               </div>
               <div>
-                <center>
+                <div class="center">
                   <picture>
-                    <source
-                      srcset="
+                    <source srcset="
                         img/habitbuilder/JTJ-HB-GuidesPrincipals-1x400.jpg
-                      "
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-GuidesPrincipals-1x400.jpg"
-                      alt="Gestault-Goolge"
-                    />
+                      " media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-GuidesPrincipals-1x400.jpg" alt="Gestault-Goolge">
                   </picture>
-                </center>
+                </div>
               </div>
               <div class="subcontent">
                 <p>
@@ -1282,48 +993,38 @@
                 </p>
               </div>
               <div>
-                <center>
+                <div class="center">
                   <picture>
-                    <source
-                      srcset="
+                    <source srcset="
                         img/habitbuilder/JTJ-HB-GuidesPrincipals-2x400.jpg
-                      "
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-GuidesPrincipals-2x400.jpg"
-                      alt="Assesibility Guides"
-                    />
+                      " media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-GuidesPrincipals-2x400.jpg" alt="Assesibility Guides">
                   </picture>
-                </center>
+                </div>
               </div>
               <p>
                 I applied grids and margins to ensure good balance and visual
                 organization to my screens.
               </p>
               <div>
-                <center>
+                <div class="center">
                   <picture>
-                    <source
-                      srcset="
+                    <source srcset="
                         img/habitbuilder/JTJ-HB-GuidesPrincipals-3x400.jpg
-                      "
-                      media=" (max-width:700px)"
-                    />
-                    <img
-                      src="img/habitbuilder/JTJ-HB-GuidesPrincipals-3x400.jpg"
-                      alt="Grids and Margins"
-                    />
+                      " media=" (max-width:700px)">
+                    <img src="img/habitbuilder/JTJ-HB-GuidesPrincipals-3x400.jpg" alt="Grids and Margins">
                   </picture>
-                </center>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!--End Row-->
       </div>
-      <!-- Desgin SECTION END -->
+    </div>
+    <!-- Desgin SECTION END -->
 
+    <div id="Testing">
       <div class="container">
         <!-- Testing SECTION START -->
         <div class="row">
@@ -1337,40 +1038,26 @@
             </p>
           </div>
 
-          <button type="button" class="collapsible">Peer Review</button
-          ><!-- Peer Review START-->
+          <button type="button" class="collapsible">Peer Review</button><!-- Peer Review START-->
           <div class="content">
             <div>
               <p></p>
             </div>
             <div>
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-PeerReview-1x400.jpg"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-PeerReview-1x700.jpg"
-                  alt="Peer Review"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-PeerReview-1x400.jpg" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-PeerReview-1x700.jpg" alt="Peer Review">
               </picture>
             </div>
             <div>
               <picture>
-                <source
-                  srcset="img/habitbuilder/JTJ-HB-PeerReview-2x400.jpg"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-PeerReview-2x700.jpg"
-                  alt="Peer Review"
-                />
+                <source srcset="img/habitbuilder/JTJ-HB-PeerReview-2x400.jpg" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-PeerReview-2x700.jpg" alt="Peer Review">
               </picture>
             </div>
           </div>
 
-          <button type="button" class="collapsible">Usability Testing</button
-          ><!-- Usability START-->
+          <button type="button" class="collapsible">Usability Testing</button><!-- Usability START-->
           <div class="content">
             <div>
               <p>
@@ -1388,30 +1075,18 @@
             </div>
             <div>
               <picture>
-                <source
-                  srcset="
+                <source srcset="
                     img/habitbuilder/JTJ-HB-UsabilityTesting-Affinityx500.png
-                  "
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-UsabilityTesting-Affinityx800.png"
-                  alt="Usability Testing Affinity Map"
-                />
+                  " media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-UsabilityTesting-Affinityx800.png" alt="Usability Testing Affinity Map">
               </picture>
             </div>
             <div>
               <picture>
-                <source
-                  srcset="
+                <source srcset="
                     img/habitbuilder/JTJ-HB-UsabilityTesting-Rainbowx500.png
-                  "
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/habitbuilder/JTJ-HB-UsabilityTesting-Rainbowx800.png"
-                  alt="Usability Testing Rainbow Sheet"
-                />
+                  " media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-UsabilityTesting-Rainbowx800.png" alt="Usability Testing Rainbow Sheet">
               </picture>
             </div>
             <div>
@@ -1435,151 +1110,112 @@
           </div>
         </div>
       </div>
-      <!-- Testing SECTION END -->
+    </div>
+    <!-- Testing SECTION END -->
 
-      <div class="blockid">
-        <!-- PROTOTYPE SECTION START -->
-        <div class="container">
-          <div class="row">
-            <div>
-              <h2>Prototype</h2>
-            </div>
-            <div>
-              <p>
-                <a
-                  href="https://www.figma.com/proto/6zyYYZfrTbOtCcwHNvpzrw/Wireframes-and-Prototyping?page-id=1068%3A18451&node-id=1068%3A18892&viewport=3690%2C1177%2C0.75&scaling=scale-down&starting-point-node-id=1068%3A18892&show-proto-sidebar=1"
-                  target="_blank"
-                  >Link to current protoype</a
-                >
-              </p>
-              <p>
-                <a
-                  href="https://share.vidyard.com/watch/aQbQuYd2nmkHRidovZWwBD?"
-                  target="_blank"
-                  >Link to video walk through of prototype</a
-                >
-              </p>
-            </div>
-            <div>
-              <h4>Sample screens</h4>
-            </div>
-            <center>
-              <div class="img-size-60">
-                <picture>
-                  <source
-                    srcset="img/habitbuilder/JTJ-HB-SampleScreens1.png"
-                    media=" (max-width:700px)"
-                  />
-                  <img
-                    src="img/habitbuilder/JTJ-HB-SampleScreens1.png"
-                    alt="Sample Screens"
-                  />
-                </picture>
-              </div>
-              <div class="img-size-60">
-                <picture>
-                  <source
-                    srcset="img/habitbuilder/JTJ-HB-SampleScreens2.png"
-                    media=" (max-width:700px)"
-                  />
-                  <img
-                    src="img/habitbuilder/JTJ-HB-SampleScreens2.png"
-                    alt="Sample Screens"
-                  />
-                </picture>
-              </div>
-              <br />
-              <div class="img-size-60">
-                <picture>
-                  <source
-                    srcset="img/habitbuilder/JTJ-HB-SampleScreens3.png"
-                    media=" (max-width:700px)"
-                  />
-                  <img
-                    src="img/habitbuilder/JTJ-HB-SampleScreens3.png"
-                    alt="Sample Screens"
-                  />
-                </picture>
-              </div>
-              <div class="img-size-60">
-                <picture>
-                  <source
-                    srcset="img/habitbuilder/JTJ-HB-SampleScreens4.png"
-                    media=" (max-width:700px)"
-                  />
-                  <img
-                    src="img/habitbuilder/JTJ-HB-SampleScreens4.png"
-                    alt="Sample Screens"
-                  />
-                </picture>
-              </div>
-            </center>
-          </div>
-        </div>
-        <!-- Prototype SECTION END -->
-      </div>
-
+    <div class="blockid">
+      <!-- PROTOTYPE SECTION START -->
       <div class="container">
-        <!-- Up Next SECTION START -->
         <div class="row">
           <div>
-            <h2>Up Next</h2>
+            <h2>Prototype</h2>
           </div>
           <div>
-            <ul>
-              <li>
-                Account management and user preferences have not been fully
-                designed and are critical for the usability and functionality of
-                the application for the users
-              </li>
-              <li>
-                Ability to connect with users' physical trainers to receive
-                workouts from their trainers and for trainers to see their
-                clients' progress
-              </li>
-              <li>Progress visualizations of tracked habits and behaviors</li>
-            </ul>
+            <p>
+              <a href="https://www.figma.com/proto/6zyYYZfrTbOtCcwHNvpzrw/Wireframes-and-Prototyping?page-id=1068%3A18451&node-id=1068%3A18892&viewport=3690%2C1177%2C0.75&scaling=scale-down&starting-point-node-id=1068%3A18892&show-proto-sidebar=1"
+                target="_blank">Link to current protoype</a>
+            </p>
+            <p>
+              <a href="https://share.vidyard.com/watch/aQbQuYd2nmkHRidovZWwBD?" target="_blank">Link to video walk through of prototype</a>
+            </p>
+          </div>
+          <div>
+            <h4>Sample screens</h4>
+          </div>
+          <div class="center">
+            <div class="img-size-60">
+              <picture>
+                <source srcset="img/habitbuilder/JTJ-HB-SampleScreens1.png" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-SampleScreens1.png" alt="Sample Screens">
+              </picture>
+            </div>
+            <div class="img-size-60">
+              <picture>
+                <source srcset="img/habitbuilder/JTJ-HB-SampleScreens2.png" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-SampleScreens2.png" alt="Sample Screens">
+              </picture>
+            </div>
+            <br>
+            <div class="img-size-60">
+              <picture>
+                <source srcset="img/habitbuilder/JTJ-HB-SampleScreens3.png" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-SampleScreens3.png" alt="Sample Screens">
+              </picture>
+            </div>
+            <div class="img-size-60">
+              <picture>
+                <source srcset="img/habitbuilder/JTJ-HB-SampleScreens4.png" media=" (max-width:700px)">
+                <img src="img/habitbuilder/JTJ-HB-SampleScreens4.png" alt="Sample Screens">
+              </picture>
+            </div>
           </div>
         </div>
       </div>
-      <!-- up next SECTION END -->
-    </main>
-    <!-- Footer Section -->
-    <footer id="contact">
-      <div class="container">
-        <div class="contactlinks">
-          <div>
-            <h2>Let's Connect</h2>
-          </div>
+      <!-- Prototype SECTION END -->
+    </div>
+
+    <div class="container">
+      <!-- Up Next SECTION START -->
+      <div class="row">
+        <div>
+          <h2>Up Next</h2>
+        </div>
+        <div>
           <ul>
-            <!-- email -->
             <li>
-              <a href="mailto:jmtj.johnson@gmail.com" target="_blank"
-                >Email me</a
-              >
+              Account management and user preferences have not been fully
+              designed and are critical for the usability and functionality of
+              the application for the users
             </li>
-          <!-- Linedin -->  
-            <li>|</li>
             <li>
-              <a
-                href="https://www.linkedin.com/in/janicejohnson/"
-                target="_blank"
-                >LinkedIn</a
-              >
+              Ability to connect with users' physical trainers to receive
+              workouts from their trainers and for trainers to see their
+              clients' progress
             </li>
+            <li>Progress visualizations of tracked habits and behaviors</li>
           </ul>
         </div>
-        <div class="contactlinks">
-          <p><i class="fa fa-copyright"></i> Janice T. Johnson 2023</p>
-          <br />
-        </div>
       </div>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.6.1.js"
-      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/scripts.js"></script>
-  </body>
+    </div>
+    <!-- up next SECTION END -->
+  </main>
+  <!-- Footer Section -->
+  <footer id="contact">
+    <div class="container">
+      <div class="contactlinks">
+        <div>
+          <h2>Let's Connect</h2>
+        </div>
+        <ul>
+          <!-- email -->
+          <li>
+            <a href="mailto:jmtj.johnson@gmail.com" target="_blank">Email me</a>
+          </li>
+          <!-- Linedin -->
+          <li>|</li>
+          <li>
+            <a href="https://www.linkedin.com/in/janicejohnson/" target="_blank">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+      <div class="contactlinks">
+        <p><i class="fa fa-copyright"></i> Janice T. Johnson 2023</p>
+        <br>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>

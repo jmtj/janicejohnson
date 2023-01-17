@@ -1,474 +1,373 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>MyWords</title>
-    <script
-      src="https://kit.fontawesome.com/f9c96e7500.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Lato:wght@400;700&family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- view port page scaling-->
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>MyWords</title>
+  <script src="https://kit.fontawesome.com/f9c96e7500.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Lato:wght@400;700&family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-  <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- view port page scaling-->
+</head>
 
-    <!-- Header Section -->
-    <header>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img class="logo" src="img/JTJ-Logo.svg" alt="Janice T Johnson"></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">UX Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Title -->
+    <div class="container">
+      <div>
+        <h1>My Words</h1>
+      </div>
+    </div>
+    <div id="project-MW">
       <div class="container">
-        <div class="navtoggle" id="myNavtoggle">
-          <a href="index.html"
-            ><img class="logo" src="img/JTJ-Logo.svg" alt="Janice T Johnson"
-          /></a>
-          <nav>
-            <ul>
-              <li><a href="index.html">UX Work</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li>
-                <a
-                  href="javascript:void(0);"
-                  class="icon"
-                  onclick="menuToggle()"
-                  ><i class="fas fa-bars"></i
-                ></a>
-              </li>
-            </ul>
-          </nav>
+        <!--Introduction START -->
+        <div class="row">
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-About-MyWordsx500.png" media=" (max-width:700px)">
+              <img src="img/mywords/MW-About-MyWordsx800.png" alt="My Words">
+            </picture>
+          </div>
         </div>
       </div>
-    </header>
-    <main>
-      <!-- Title -->
-      <div class="container">
-        <div>
-          <h1>My Words</h1>
-        </div>
-      </div>
-      <div id="project-MW">
+
+      <div class="blockid">
         <div class="container">
           <!--Introduction START -->
           <div class="row">
             <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-About-MyWordsx500.png"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/mywords/MW-About-MyWordsx800.png"
-                  alt="My Words"
-                />
-              </picture>
+              <h2>Project Objective</h2>
             </div>
-          </div>
-        </div>
-
-        <div class="blockid">
-          <div class="container">
-            <!--Introduction START -->
-            <div class="row">
-              <div>
-                <h2>Project Objective</h2>
-              </div>
-              <div>
-                <p>My Words was designed to:</p>
-                <ul>
-                  <li>help young adults learn new terminology</li>
-                  <li>
-                    enable them to enter their own terms to learn and group them
-                    by subjects of their choosing
-                  </li>
-                  <li>
-                    give a variety of methods to practice to help keep them
-                    engaged
-                  </li>
-                  <li>
-                    make learrning easy and accessible users are encouraged by
-                    the app to learn their terms
-                  </li>
-                </ul>
-                <div class="sidenote">
-                  <p>
-                    I was the only UX Designer for this project that was
-                    completed as part of Career Foundry UX Design certification
-                    requirement.
-                  </p>
-                </div>
+            <div>
+              <p>My Words was designed to:</p>
+              <ul>
+                <li>help young adults learn new terminology</li>
+                <li>
+                  enable them to enter their own terms to learn and group them
+                  by subjects of their choosing
+                </li>
+                <li>
+                  give a variety of methods to practice to help keep them
+                  engaged
+                </li>
+                <li>
+                  make learrning easy and accessible users are encouraged by
+                  the app to learn their terms
+                </li>
+              </ul>
+              <div class="sidenote">
+                <p>
+                  I was the only UX Designer for this project that was
+                  completed as part of Career Foundry UX Design certification
+                  requirement.
+                </p>
               </div>
             </div>
           </div>
-        </div>
-        <!--Introduction END-->
-
-        <div class="container">
-          <!-- Competitive Analysis START -->
-          <div class="row">
-            <div>
-              <h2>Competitive Analysis</h2>
-            </div>
-            <div>
-              <p>
-                For this analysis I focused on ease of use and scope of
-                capabilities. They all met the general criteria of creating
-                flashcards to learn terminology. They all had the ability to
-                create custom terms and answers. They each had some extras that
-                would meet additional needs depending on the users’ need for the
-                products.
-              </p>
-            </div>
-            <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-CA-1StudySmarter.png"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/mywords/MW-CA-1StudySmarter.png"
-                  alt="Study Smater"
-                />
-              </picture>
-            </div>
-            <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-CA-2FlashCardsWorld.png"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/mywords/MW-CA-2FlashCardsWorld.png"
-                  alt="FlashCardsWorld"
-                />
-              </picture>
-            </div>
-            <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-CA-3AnkiDroid.png"
-                  media=" (max-width:700px)"
-                />
-                <img src="img/mywords/MW-CA-3AnkiDroid.png" alt="AnkiDorid" />
-              </picture>
-            </div>
-            <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-CA-4-Quizlet.png"
-                  media=" (max-width:700px)"
-                />
-                <img src="img/mywords/MW-CA-4-Quizlet.png" alt="Quizlet" />
-              </picture>
-            </div>
-          </div>
-        </div>
-        <!-- Competitive Analysis END -->
-
-        <div class="container">
-          <!-- User Research START -->
-          <div class="row">
-            <div>
-              <h2>User Interviews</h2>
-            </div>
-            <div>
-              <h4>DOING | THINKING | FEELING</h4>
-            </div>
-            <div>
-              <h5>Who participated:</h5>
-            </div>
-            <div>
-              <ul>
-                <li>5 participants</li>
-                <li>Age Range: 22-37 years</li>
-                <li>Students and Professionals</li>
-              </ul>
-            </div>
-            <div>
-              <h5>Interview Findings</h5>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  All interviewees felt
-                  <span style="font-weight: bold; color: #365742"
-                    >repetition and application to real life</span
-                  >
-                  was important for learning and retention. If they do not apply
-                  what they learn, they will forget in a matter of weeks or
-                  months.
-                </li>
-                <li>
-                  <span style="font-weight: bold; color: #365742"
-                    >Competition motivates some people but not everyone</span
-                  >
-                  - it can turn some people off or add pressure they do not
-                  want.
-                </li>
-                <li>
-                  <span style="font-weight: bold; color: #365742"
-                    >Reminder notifications are valuable</span
-                  >
-                  to keep the learner engaged but should have the ability to
-                  <span style="font-weight: bold; color: #365742"
-                    >set to learner's preferences</span
-                  >.
-                </li>
-                <li>
-                  Variety is the spice to learning. All interviewees felt more
-                  engaged with terms and information when they had a
-                  <span style="font-weight: bold; color: #365742"
-                    >variety of ways to interact with the information</span
-                  >.
-                </li>
-                <li>
-                  The interviewees feel more engaged with the learnings when
-                  <span style="font-weight: bold; color: #365742"
-                    >supporting information is provided</span
-                  >
-                  - what is the backstory of why things are - rather than a list
-                  of facts or terms.
-                </li>
-                <li>
-                  Most expressed that the experience needs to be pleasing. They
-                  referenced
-                  <span style="font-weight: bold; color: #365742"
-                    >good visuals, organization, navigation and variety as part
-                    of a good experience</span
-                  >. If the app does not provide these, they won't use it.
-                  "There are too many options out there if this does not work, I
-                  am moving on - time is too precious - you will gravitate to
-                  what is easier and pleasing.” ~Mari
-                </li>
-                <li>
-                  Imposture syndrome is common, and
-                  <span style="font-weight: bold; color: #365742"
-                    >people want ways to expand their knowledge in their fields
-                    to be productive and valuable</span
-                  >.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- User Research END -->
-
-        <div class="container">
-          <!-- Defining the User START -->
-          <div class="row">
-            <div>
-              <h2>Defining the User</h2>
-            </div>
-            <div>
-              <h3>User Persona - Megan</h3>
-            </div>
-            <div>
-              <p>
-                User Persona was developed based on findings from the User
-                Interviews
-              </p>
-            </div>
-            <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-Persona-Meganx500.jpg"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/mywords/MW-Persona-Meganx800.jpg"
-                  alt="User Persona"
-                />
-              </picture>
-            </div>
-            <div>
-              <h3>Design objectives based on persona:</h3>
-            </div>
-            <dv>
-              <ul>
-                <li>ability to learn in pockets of time</li>
-                <li>quick sessions that she can control</li>
-                <li>fun and easy</li>
-                <li>variety of learning formats</li>
-                <li>customizable reminders to keep learning</li>
-              </ul>
-            </dv>
-          </div>
-        </div>
-        <!-- Defining the User  END -->
-
-        <div class="container">
-          <!-- The Initial Design START -->
-          <div class="row">
-            <div>
-              <h2>The Initial Design</h2>
-            </div>
-            <div>
-              <h4>Initial Abilities for Prototype</h4>
-              <ul>
-                <li>Create an account</li>
-                <li>Create a deck for terms</li>
-                <li>Create a card</li>
-                <li>Practice Flashcards</li>
-              </ul>
-            </div>
-            <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-Design-1-CreateAccountx500.jpg"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/mywords/MW-Design-1-CreateAccountx800.jpg"
-                  alt="Create Account Flow"
-                />
-              </picture>
-            </div>
-            <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-Design-1-AddCardsx500.jpg"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/mywords/MW-Design-1-AddCardsx800.jpg"
-                  alt="Add Cards Flow"
-                />
-              </picture>
-            </div>
-          </div>
-        </div>
-        <!-- The Initial Design  END -->
-
-        <div class="container">
-          <!-- Usability Testing START -->
-          <div class="row">
-            <div>
-              <h2>Testing</h2>
-            </div>
-            <div>
-              <p>With feedback from my testing participants:</p>
-              <ul>
-                <li>I created a cleaner create account screen</li>
-                <li>I added clarification to some of the directions</li>
-                <li>I added functionality to the practice sessions</li>
-              </ul>
-            </div>
-
-            <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-DesignProcess-3-UT1x500.png"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/mywords/MW-DesignProcess-3-UT1x800.png"
-                  alt="Testing Results"
-                /> </picture
-              ><br />
-            </div>
-            <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-DesignProcess-2-UT2x500.png"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/mywords/MW-DesignProcess-2-UT2x800.png"
-                  alt="Testing Results"
-                /> </picture
-              ><br />
-            </div>
-            <div>
-              <picture>
-                <source
-                  srcset="img/mywords/MW-DesignProcess-3-UT3x500.png"
-                  media=" (max-width:700px)"
-                />
-                <img
-                  src="img/mywords/MW-DesignProcess-3-UT3x800.png"
-                  alt="Testing Results"
-                />
-              </picture>
-            </div>
-          </div>
-        </div>
-        <!-- Usability Testing   END -->
-
-        <div class="blockid">
-          <div class="container">
-            <!-- Up Next START -->
-            <div class="row">
-              <div>
-                <h2>Up Next</h2>
-              </div>
-              <div>
-                <h4>
-                  Additional features based on participants insights and
-                  feedback
-                </h4>
-                <ul>
-                  <li>scheduling reminders</li>
-                  <li>scoring process for how users are progressing</li>
-                  <li>additional access to create cards and practice cards</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Up Next   END -->
         </div>
       </div>
-      <!--work ID END -->
-    </main>
+      <!--Introduction END-->
 
-    <!-- Footer Section -->
-    <footer id="contact">
       <div class="container">
-        <div class="contactlinks">
+        <!-- Competitive Analysis START -->
+        <div class="row">
           <div>
-            <h2>Let's Connect</h2>
+            <h2>Competitive Analysis</h2>
           </div>
-          <ul>
-            <!-- email -->
-            <li>
-              <a href="mailto:jmtj.johnson@gmail.com" target="_blank"
-                >Email me</a
-              >
-            </li>
-            <!-- Linedin -->
-            <li>|</li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/janicejohnson/"
-                target="_blank"
-                >LinkedIn</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="contactlinks">
-          <p><i class="fa fa-copyright"></i> Janice T. Johnson 2023</p>
-          <br />
+          <div>
+            <p>
+              For this analysis I focused on ease of use and scope of
+              capabilities. They all met the general criteria of creating
+              flashcards to learn terminology. They all had the ability to
+              create custom terms and answers. They each had some extras that
+              would meet additional needs depending on the users’ need for the
+              products.
+            </p>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-CA-1StudySmarter.png" media=" (max-width:700px)">
+              <img src="img/mywords/MW-CA-1StudySmarter.png" alt="Study Smater">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-CA-2FlashCardsWorld.png" media=" (max-width:700px)">
+              <img src="img/mywords/MW-CA-2FlashCardsWorld.png" alt="FlashCardsWorld">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-CA-3AnkiDroid.png" media=" (max-width:700px)">
+              <img src="img/mywords/MW-CA-3AnkiDroid.png" alt="AnkiDorid">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-CA-4-Quizlet.png" media=" (max-width:700px)">
+              <img src="img/mywords/MW-CA-4-Quizlet.png" alt="Quizlet">
+            </picture>
+          </div>
         </div>
       </div>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.6.1.js"
-      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/scripts.js"></script>
-  </body>
+      <!-- Competitive Analysis END -->
+
+      <div class="container">
+        <!-- User Research START -->
+        <div class="row">
+          <div>
+            <h2>User Interviews</h2>
+          </div>
+          <div>
+            <h4>DOING | THINKING | FEELING</h4>
+          </div>
+          <div>
+            <h5>Who participated:</h5>
+          </div>
+          <div>
+            <ul>
+              <li>5 participants</li>
+              <li>Age Range: 22-37 years</li>
+              <li>Students and Professionals</li>
+            </ul>
+          </div>
+          <div>
+            <h5>Interview Findings</h5>
+          </div>
+          <div>
+            <ul>
+              <li>
+                All interviewees felt
+                <span style="font-weight: bold; color: #365742">repetition and application to real life</span>
+                was important for learning and retention. If they do not apply
+                what they learn, they will forget in a matter of weeks or
+                months.
+              </li>
+              <li>
+                <span style="font-weight: bold; color: #365742">Competition motivates some people but not everyone</span>
+                - it can turn some people off or add pressure they do not
+                want.
+              </li>
+              <li>
+                <span style="font-weight: bold; color: #365742">Reminder notifications are valuable</span>
+                to keep the learner engaged but should have the ability to
+                <span style="font-weight: bold; color: #365742">set to learner's preferences</span>.
+              </li>
+              <li>
+                Variety is the spice to learning. All interviewees felt more
+                engaged with terms and information when they had a
+                <span style="font-weight: bold; color: #365742">variety of ways to interact with the information</span>.
+              </li>
+              <li>
+                The interviewees feel more engaged with the learnings when
+                <span style="font-weight: bold; color: #365742">supporting information is provided</span>
+                - what is the backstory of why things are - rather than a list
+                of facts or terms.
+              </li>
+              <li>
+                Most expressed that the experience needs to be pleasing. They
+                referenced
+                <span style="font-weight: bold; color: #365742">good visuals, organization, navigation and variety as part
+                  of a good experience</span>. If the app does not provide these, they won't use it.
+                "There are too many options out there if this does not work, I
+                am moving on - time is too precious - you will gravitate to
+                what is easier and pleasing.” ~Mari
+              </li>
+              <li>
+                Imposture syndrome is common, and
+                <span style="font-weight: bold; color: #365742">people want ways to expand their knowledge in their fields
+                  to be productive and valuable</span>.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- User Research END -->
+
+      <div class="container">
+        <!-- Defining the User START -->
+        <div class="row">
+          <div>
+            <h2>Defining the User</h2>
+          </div>
+          <div>
+            <h3>User Persona - Megan</h3>
+          </div>
+          <div>
+            <p>
+              User Persona was developed based on findings from the User
+              Interviews
+            </p>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-Persona-Meganx500.jpg" media=" (max-width:700px)">
+              <img src="img/mywords/MW-Persona-Meganx800.jpg" alt="User Persona">
+            </picture>
+          </div>
+          <div>
+            <h3>Design objectives based on persona:</h3>
+          </div>
+          <div>
+            <ul>
+              <li>ability to learn in pockets of time</li>
+              <li>quick sessions that she can control</li>
+              <li>fun and easy</li>
+              <li>variety of learning formats</li>
+              <li>customizable reminders to keep learning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Defining the User  END -->
+
+      <div class="container">
+        <!-- The Initial Design START -->
+        <div class="row">
+          <div>
+            <h2>The Initial Design</h2>
+          </div>
+          <div>
+            <h4>Initial Abilities for Prototype</h4>
+            <ul>
+              <li>Create an account</li>
+              <li>Create a deck for terms</li>
+              <li>Create a card</li>
+              <li>Practice Flashcards</li>
+            </ul>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-Design-1-CreateAccountx500.jpg" media=" (max-width:700px)">
+              <img src="img/mywords/MW-Design-1-CreateAccountx800.jpg" alt="Create Account Flow">
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-Design-1-AddCardsx500.jpg" media=" (max-width:700px)">
+              <img src="img/mywords/MW-Design-1-AddCardsx800.jpg" alt="Add Cards Flow">
+            </picture>
+          </div>
+        </div>
+      </div>
+      <!-- The Initial Design  END -->
+
+      <div class="container">
+        <!-- Usability Testing START -->
+        <div class="row">
+          <div>
+            <h2>Testing</h2>
+          </div>
+          <div>
+            <p>With feedback from my testing participants:</p>
+            <ul>
+              <li>I created a cleaner create account screen</li>
+              <li>I added clarification to some of the directions</li>
+              <li>I added functionality to the practice sessions</li>
+            </ul>
+          </div>
+
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-DesignProcess-3-UT1x500.png" media=" (max-width:700px)">
+              <img src="img/mywords/MW-DesignProcess-3-UT1x800.png" alt="Testing Results">
+            </picture><br>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-DesignProcess-2-UT2x500.png" media=" (max-width:700px)">
+              <img src="img/mywords/MW-DesignProcess-2-UT2x800.png" alt="Testing Results">
+            </picture><br>
+          </div>
+          <div>
+            <picture>
+              <source srcset="img/mywords/MW-DesignProcess-3-UT3x500.png" media=" (max-width:700px)">
+              <img src="img/mywords/MW-DesignProcess-3-UT3x800.png" alt="Testing Results">
+            </picture>
+          </div>
+        </div>
+      </div>
+      <!-- Usability Testing   END -->
+
+      <div class="blockid">
+        <div class="container">
+          <!-- Up Next START -->
+          <div class="row">
+            <div>
+              <h2>Up Next</h2>
+            </div>
+            <div>
+              <h4>
+                Additional features based on participants insights and
+                feedback
+              </h4>
+              <ul>
+                <li>scheduling reminders</li>
+                <li>scoring process for how users are progressing</li>
+                <li>additional access to create cards and practice cards</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Up Next   END -->
+      </div>
+    </div>
+    <!--work ID END -->
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="contact">
+    <div class="container">
+      <div class="contactlinks">
+        <div>
+          <h2>Let's Connect</h2>
+        </div>
+        <ul>
+          <!-- email -->
+          <li>
+            <a href="mailto:jmtj.johnson@gmail.com" target="_blank">Email me</a>
+          </li>
+          <!-- Linedin -->
+          <li>|</li>
+          <li>
+            <a href="https://www.linkedin.com/in/janicejohnson/" target="_blank">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+      <div class="contactlinks">
+        <p><i class="fa fa-copyright"></i> Janice T. Johnson 2023</p>
+        <br>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
