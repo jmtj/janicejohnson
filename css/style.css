@@ -78,11 +78,7 @@ h2 {
   border-bottom: 1px solid #20452d;
 }
 
-#hero h1, #hero h2 {
-  text-align: center;
-  margin: 0;
-  /* Centers text */
-}
+
 
 .project-HB h2 {
   padding: 0px 0 2px 4px;
