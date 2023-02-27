@@ -1,13 +1,15 @@
 /*
 Colors used:
-#708090 - SlateGray removing
-#596673 - (darker) removing
-#4e5a65 -
-#5f6a74 -
-#c5ccd2 - headers background
-#444444 - header text
-#4B7C5C - header text HB
-#56A456 - Habit Builder Base (Green)
+#708090 - SlateGray 
+#596673 - SlateGray (2 shades darker)
+#434c56 - SlateGray (4 shades darker)
+#20452d - Dark Green
+#eaeaea - Block Backgrounds
+#387038 – Shade of green
+#697887 - Shade of blue grey
+#f0f0f0 - Grey94 (text for dark backgrounds)
+#f3f3f3 - Grey94 (2 tints lighter) (block backgrounds) X
+#040404 - Default Text
 */
 * {
   box-sizing: border-box;
@@ -112,10 +114,6 @@ h4 {
   font-weight: 700;
 }
 
-.project-HB h4 {
-  color: #387038;
-}
-
 #project-MW h4 {
   font-size: 1.15em;
 }
@@ -205,7 +203,7 @@ a:focus {
 
 a:active {
   /* selected link */
-  color: #4e5a65;
+  color: #434c56;
 }
 
 .probutton {
@@ -427,7 +425,7 @@ nav>ul>li>a:active {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #56A456;
+  color: #20452d;
   font-size: 12px;
   padding: 8px 12px;
   font-weight: bold;
@@ -623,7 +621,7 @@ Medium devices (640px and larger)
   #about-page h3 {
     margin-top: 0;
   }
-
+}
   /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -646,5 +644,5 @@ Large devices (1024px or larger)
   /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-  @media only screen and (min-width: 1440px) {}
+  @media only screen and (min-width: 1440px) {
 }
